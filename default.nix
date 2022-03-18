@@ -10,7 +10,7 @@ with nixpkgs.python3.pkgs;
 
 buildPythonPackage rec {
   pname = "beancount_payeeverif";
-  version = "1.0.1";
+  version = "1.0.2";
   disabled = !isPy3k;
 
   src = ./.;

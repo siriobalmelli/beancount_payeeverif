@@ -6,7 +6,7 @@ with open(path.join(path.dirname(__file__), 'README.md')) as readme:
 
 setup(
     name='beancount_payeeverif',
-    version="1.0.1",
+    version="1.0.2",
     py_modules=["beancount_payeeverif"],
 
     description='Payee verification plugin for Beancount',
