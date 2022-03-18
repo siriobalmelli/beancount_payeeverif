@@ -1,0 +1,8 @@
+plugin  "beancount_payeeverif"
+
+2000-01-01  open  Expenses:General BEAN
+2000-01-01  open  Assets:General BEAN
+
+2000-01-01  *  ""  "faucet fix"
+  Expenses:General
+  Assets:General  -1 BEAN
